@@ -6,3 +6,6 @@ function anagram(str1, str2) {
     str2 = arr2.sort().join();
     return (str1 === str2) ? true : false;    
 }
+
+
+console.log(anagram("up", "UP"));
